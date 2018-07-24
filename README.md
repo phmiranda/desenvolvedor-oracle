@@ -1,3 +1,3 @@
-# Alura
+# Carreira de Desenvolvedor Java
 
-## Carreira de Desenvolvedor Java
+## Configuração do Projeto
