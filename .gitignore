@@ -7,5 +7,5 @@ nbproject/
 *.iml
 
 # diretório com a compilação das classes
-out
-gen
+out/
+gen/
