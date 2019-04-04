@@ -1,4 +1,4 @@
-public class Inteiro {
+public class TestaInteiro {
     // comentários
     public static void main(String args[]){
         // comentários
