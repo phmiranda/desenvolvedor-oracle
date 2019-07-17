@@ -1,18 +1,17 @@
 public class TestaInteiro {
-    // comentários
     public static void main(String args[]){
-        // comentários
+        // comentário
         int idade;
 
-        // comentários
+        // comentário
         idade = 37;
         System.out.println("A primeira idade é: " + idade);
 
-        // comentários
+        // comentário
         idade = 30 + 10;
         System.out.println("A segunda idade é: " + idade);
 
-        // comentários
+        // comentário
         idade = (7 * 5) + 2;
         System.out.println("A terceira idade é: " + idade);
     }

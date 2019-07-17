@@ -1,27 +1,26 @@
 public class TestaPontoFlutuante {
-    // comentários
     public static void main(String args[]){
-        // comentários
+        // comentário
         double salario;
 
-        // comentários
+        // comentário
         salario = 1250.70;
 
-        // comentários
+        // comentário
         System.out.println("O meu salário é: " + salario);
 
-        // comentários
+        // comentário
         double idade = 37;
 
-        // comentários
+        // comentário
         double divisao = 3.14 / 2;
         System.out.println(divisao);
 
-        // comentários
+        // comentário
         int outraDivisao = 5/2;
         System.out.println(outraDivisao);
 
-        // comentários
+        // comentário
         double novaTentativa = 5.0/2;
         System.out.println(novaTentativa);
     }

@@ -1,7 +1,7 @@
 public class Programa {
-    // comentários
+    // comentário
     public static void main(String args[]){
-        // comentários
+        // comentário
         System.out.println("Ola mundo...");
     }
 }
