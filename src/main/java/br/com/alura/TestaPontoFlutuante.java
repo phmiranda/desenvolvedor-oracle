@@ -1,3 +1,5 @@
+package br.com.alura;
+
 public class TestaPontoFlutuante {
     public static void main(String args[]){
         // comentário

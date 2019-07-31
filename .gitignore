@@ -1,12 +1,12 @@
-# configurações do projeto
+# diretório das IDE's
 .idea/
 nbproject/
 .vscode/
 
-# configuração de xml do projeto
+# extensões das IDE's
 *.iml
 
-# diretório com a compilação das classes
-out/
+# diretório de compilação
 gen/
 target/
+out/
