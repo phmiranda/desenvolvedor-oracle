@@ -5,9 +5,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>br.com.alura</groupId>
-  <artifactId>desenvolvedor</artifactId>
+  <artifactId>desenvolvedor-v2</artifactId>
   <version>1.0.0</version>
-  <name>DESENVOLVEDOR</name>
+  <name>desenvolvedor-v2</name>
   <url>http://www.example.com</url>
 
   <properties>
