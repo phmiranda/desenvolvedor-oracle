@@ -1,11 +1,12 @@
-# configurações do projeto
+# ide directory and file configuration.
 .idea/
-nbproject/
 .vscode/
 
-# configuração de xml do projeto
-*.iml
+# build directory target.
+gen/
+target/
+out/
 
-# diretório com a compilação das classes
-out
-gen
+# file log, ide configuration, etc.
+*.log
+*.iml
