@@ -5,9 +5,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>br.com.alura</groupId>
-  <artifactId>desenvolvedor</artifactId>
-  <name>desenvolvedor</name>
-  <url>https://github.com/phmiranda/desenvolvedor.v2</url>
+  <artifactId>desenvolvedor-v3</artifactId>
+  <name>desenvolvedor-v3</name>
+  <url>https://github.com/phmiranda/desenvolvedor.v3</url>
   <version>1.0.0</version>
 
   <properties>
