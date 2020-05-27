@@ -1,11 +1,13 @@
+/**
+ * User: phmiranda
+ * Project: desenvolvedor
+ * Date: 19/05/2020
+ */
+
 package br.com.alura;
 
-/**
- * Hello world!
- *
- */
 public class App {
-    public static void main( String[] args ) {
-        System.out.println( "Hello World!" );
+    public static void main(String[] args) {
+        System.out.println("Meu primeiro programa !!!");
     }
 }
