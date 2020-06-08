@@ -8,6 +8,6 @@ package br.com.alura;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Meu primeiro programa !!!");
+        System.out.println("Programa Básico do Maven !!!");
     }
 }

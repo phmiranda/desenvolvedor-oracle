@@ -1,3 +1,3 @@
-# Carreira de Desenvolvedor Java
+# Desenvolvedor Java
 
 ## Configuração do Projeto
