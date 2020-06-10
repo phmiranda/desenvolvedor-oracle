@@ -2,6 +2,7 @@
  * User: phmiranda
  * Project: desenvolvedor
  * Date: 19/05/2020
+ * Descrição: N/A.
  */
 
 package br.com.alura;
