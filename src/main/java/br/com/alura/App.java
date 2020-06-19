@@ -9,6 +9,6 @@ package br.com.alura;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Programa Básico do Maven !!!");
+        System.out.println("Hello world!!!");
     }
 }
