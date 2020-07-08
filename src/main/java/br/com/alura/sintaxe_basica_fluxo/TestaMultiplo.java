@@ -5,7 +5,7 @@
  * Descrição:
  */
 
-package br.com.alura.sintaxe_fluxo;
+package br.com.alura.sintaxe_basica_fluxo;
 
 public class TestaMultiplo {
     public static void main(String[] args) {
