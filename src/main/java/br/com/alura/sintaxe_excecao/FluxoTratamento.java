@@ -7,14 +7,14 @@
 
 package br.com.alura.sintaxe_excecao;
 
-public class Fluxo {
+public class FluxoTratamento {
     public static void main(String[] args) {
         System.out.println("------ Início do Main ------");
         //metodo1();
         try{
             metodo1();
-        }catch (ArithmeticException | NullPointerException | MinhaExcecao exception) {
-            System.out.println("Exceção: " + exception.getMessage());
+        }catch (ArithmeticException | NullPointerException exception) {
+            System.out.println("" + exception.getMessage());
             exception.printStackTrace();
         }
         System.out.println("------ Fim do Main ------");
@@ -28,13 +28,12 @@ public class Fluxo {
 
     private static void metodo2() {
         System.out.println("------ Início do Método 02 ------");
-        Conta conta = new Conta();
-
-        //ArithmeticException exception = new ArithmeticException();
-        //throw exception;
-
-        throw new MinhaExcecao("Lançando mensagem na exceção !");
-
-        //System.out.println("------ Fim do Método 02 ------");
+        for(int i = 1; i <= 5; i++) {
+            System.out.println(i);
+            int a = i / 0;
+            Conta conta = null;
+            conta.deposita();
+        }
+        System.out.println("------ Fim do Método 02 ------");
     }
 }
