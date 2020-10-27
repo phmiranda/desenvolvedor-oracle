@@ -4,9 +4,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <name>desenvolvedor-v3</name>
   <groupId>br.com.alura</groupId>
   <artifactId>desenvolvedor-v3</artifactId>
-  <name>desenvolvedor-v3</name>
   <url>https://github.com/phmiranda/desenvolvedor.v3</url>
   <version>1.0.0</version>
 
