@@ -7,7 +7,7 @@
 
 package br.com.alura.sintaxe.basica;
 
-public class PrimitivoInteiro {
+public class PrimitivoInteger {
     public static void main(String[] args) {
         int numero;
     }

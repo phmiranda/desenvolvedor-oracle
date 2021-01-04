@@ -9,6 +9,7 @@ package br.com.alura.sintaxe.basica;
 
 public class PrimitivoByte {
     public static void main(String[] args) {
-        byte recurso;
+        byte recurso = 1;
+        System.out.println(recurso);
     }
 }

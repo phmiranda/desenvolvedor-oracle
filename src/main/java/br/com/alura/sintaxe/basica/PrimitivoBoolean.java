@@ -9,6 +9,7 @@ package br.com.alura.sintaxe.basica;
 
 public class PrimitivoBoolean {
     public static void main(String[] args) {
-        boolean validado;
+        boolean validado = false;
+        System.out.println(validado);
     }
 }

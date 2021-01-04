@@ -8,7 +8,10 @@
 package br.com.alura.sintaxe.basica;
 
 public class PrimitivoShort {
+
+
     public static void main(String[] args) {
-        short numero;
+        short numero = 10;
+        System.out.println(numero);
     }
 }
