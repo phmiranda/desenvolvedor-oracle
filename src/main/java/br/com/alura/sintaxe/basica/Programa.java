@@ -1,13 +1,14 @@
 /**
  * User: phmiranda
  * Project: desenvolvedor-v3
- * Descrição: classe com a estrutura mais basilar para entendimento da linguagem Java.
+ * Descrição: classe com a estrutura mais básica para o desenvolvimento com Java.
  * Date: 19/05/2020
  */
 
 /**
  * declaração do pacote, pois o projeto foi gerado com o Maven.
  */
+
 package br.com.alura.sintaxe.basica;
 
 /**
@@ -16,7 +17,7 @@ package br.com.alura.sintaxe.basica;
 public class Programa {
 
     /**
-     * Todo app Java precisa invocar um método main (principal), isso é uma nomenclatura obrigatória para o desenvolvimento.
+     * Aplicativos Java precisam invocar um método main (principal).
      */
     public static void main(String[] args) {
 
