@@ -5,7 +5,7 @@
  * Date: 09/06/2020
  */
 
-package br.com.phmiranda.fluxo;
+package br.com.phmiranda.controle;
 
 public class TestaVariavel {
     public static void main(String[] args) {

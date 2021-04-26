@@ -5,12 +5,12 @@
  * Date: 09/06/2020
  */
 
-package br.com.phmiranda.fluxo;
+package br.com.phmiranda.controle;
 
-public class TestaMultiplo {
+public class TestaFluxoRepeticao {
     public static void main(String[] args) {
-        for (int numero = 3; numero < 100; numero++){
-            System.out.println(numero);
+        for (int i = 0; i <= 100; i++){
+            System.out.println(i * 2);
         }
     }
 }
