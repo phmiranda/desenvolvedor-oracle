@@ -5,9 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <name>desenvolvedor-v3</name>
-  <groupId>br.com.alura</groupId>
+  <groupId>br.com.phmiranda</groupId>
   <artifactId>desenvolvedor-v3</artifactId>
   <url>https://github.com/phmiranda/desenvolvedor.v3</url>
+  <packaging>jar</packaging>
   <version>1.0.0</version>
 
   <properties>
