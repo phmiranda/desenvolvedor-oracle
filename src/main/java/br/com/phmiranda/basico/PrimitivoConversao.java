@@ -13,7 +13,7 @@ public class PrimitivoConversao {
         double salario = 1270.50;
         int valor = (int) salario;
 
-        System.out.println("Tipo double: " + salario);
-        System.out.println("Tipo casting: " + valor);
+        System.out.println("Double: " + salario);
+        System.out.println("Casting: " + valor);
     }
 }

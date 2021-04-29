@@ -8,5 +8,8 @@
 package br.com.phmiranda.basico;
 
 public class PrimitivoFloat {
-    // comment
+    public static void main(String[] args) {
+        float numero = 3.14f;
+        System.out.println("Ponto Flutuante: " + numero);
+    }
 }
