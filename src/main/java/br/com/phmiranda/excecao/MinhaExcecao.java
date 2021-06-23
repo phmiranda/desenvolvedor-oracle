@@ -1,6 +1,7 @@
-/**
- * User: phmiranda
- * Project: desenvolvedor-v3
+/*
+ * Author: Pedro
+ * Project: desenvolvedor-oracle
+ * User Story: N/A
  * Description: essa classe cria uma exceção própria para tratamento de exceção.
  * Date: 08/07/2020
  */

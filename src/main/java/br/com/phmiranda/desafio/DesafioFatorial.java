@@ -1,6 +1,7 @@
-/**
- * User: phmiranda
- * Project: desenvolvedor-3
+/*
+ * Author: Pedro
+ * Project: desenvolvedor-oracle
+ * User Story: N/A
  * Description: desafio de como implementar fatorial.
  * Date: 09/06/2020
  */

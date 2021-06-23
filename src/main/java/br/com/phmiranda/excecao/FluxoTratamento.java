@@ -1,8 +1,9 @@
-/**
- * Project:
- * Date: 19/06/2020
- * User: phmiranda
+/*
+ * Author: Pedro
+ * Project: desenvolvedor-oracle
+ * User Story: N/A
  * Description: esta classe realiza a execução dos métodos declarados através de uma fila de execução.
+ * Date: 19/06/2020
  */
 
 package br.com.phmiranda.excecao;
