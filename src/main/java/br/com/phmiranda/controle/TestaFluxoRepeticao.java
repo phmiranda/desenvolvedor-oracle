@@ -9,7 +9,8 @@ package br.com.phmiranda.controle;
 
 public class TestaFluxoRepeticao {
     public static void main(String[] args) {
-        for (int i = 0; i <= 100; i++){
+        // Percorre a lista iterando o seu resultado.
+        for (int i = 0; i <= 100; i++) {
             System.out.println(i * 2);
         }
     }
