@@ -4,12 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <name>desenvolvedor-v3</name>
+  <name>desenvolvedor-oracle-se</name>
   <groupId>br.com.phmiranda</groupId>
-  <artifactId>desenvolvedor-v3</artifactId>
-  <url>https://github.com/phmiranda/desenvolvedor.v3</url>
+  <artifactId>desenvolvedor-oracle-se</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.0</version>
+  <version>1.0.0-SNAPSHOT</version>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
