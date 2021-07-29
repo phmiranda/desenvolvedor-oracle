@@ -1,8 +1,8 @@
 /*
- * Author: Pedro
+ * Author: phmiranda
  * Project: desenvolvedor-oracle-se
- * User Story: HUXXX - TITLE OF USER HISTORY
- * Description: N/A
+ * User Story: PGT-HU01
+ * Description: AULA 01 - O Que É Java ?
  * Date: 21/07/2021
  */
 
