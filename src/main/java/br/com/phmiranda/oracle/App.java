@@ -1,7 +1,8 @@
-/**
- * User: phmiranda
- * Project: desenvolvedor-v3
- * Descrição: a classe App.java é o item com a sintaxe mais básica do Java para compilação, ela foi gerada automaticamente pelo Maven.
+/*
+ * Author: phmiranda
+ * Project: desenvolvedor-oracle-se
+ * User Story: PGT-HU01
+ * Description: N/A
  * Date: 19/05/2020
  */
 
