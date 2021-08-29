@@ -1,26 +1,19 @@
 /*
- * Author: Pedro
+ * Author: phmiranda
  * Project: desenvolvedor-oracle-se
- * User Story: HUXXX - TITLE OF USER HISTORY
- * Description: N/A
+ * User Story: HU001
+ * Description: DESENVOLVEDOR ORACLE SE [PARTE 01]
  * Date: 21/07/2021
  */
 
 package br.com.phmiranda.oracle.basico.sintaxe;
 
-/**
- * No Java, declaramos uma classe onde iremos desenvolver nosso código.
- */
+// No Java, declaramos uma classe onde iremos desenvolver nosso código entre chaves (escopo) e colocamos o código a ser executado.
+// Aplicativos Java precisam invocar um método main (principal).
+// Método padrão para a impressão de uma string no console.
+
 public class Programa {
-
-    /**
-     * Aplicativos Java precisam invocar um método main (principal).
-     */
     public static void main(String[] args) {
-
-        /**
-         * Método padrão para a impressão de uma string no console.
-         */
         System.out.println("Olá mundo");
     }
 }
