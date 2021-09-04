@@ -6,13 +6,10 @@
  * Date: 21/07/2021
  */
 
-package br.com.phmiranda.oracle.basico.sintaxe.primitivo;
+package br.com.phmiranda.oracle.basico.fluxo.controle;
 
-public class Long {
+public class BaseWhile {
     public static void main(String[] args) {
-        long numero;
-        numero = 32432423523L;
 
-        System.out.println("Número Grande: " + numero);
     }
 }

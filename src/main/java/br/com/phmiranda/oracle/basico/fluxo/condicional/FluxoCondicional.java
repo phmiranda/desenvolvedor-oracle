@@ -6,7 +6,7 @@
  * Date: 21/07/2021
  */
 
-package br.com.phmiranda.oracle.basico.condicional;
+package br.com.phmiranda.oracle.basico.fluxo.condicional;
 
 // o IF e ELSE verifica se um resultado é VERDADEIRO ou FALSO.
 public class FluxoCondicional {

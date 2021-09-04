@@ -6,11 +6,12 @@
  * Date: 21/07/2021
  */
 
-package br.com.phmiranda.oracle.basico.sintaxe.primitivo;
+package br.com.phmiranda.oracle.basico.primitivo;
 
-public class Float {
+public class Short {
     public static void main(String[] args) {
-        float numero = 3.14f;
-        System.out.println("Ponto Flutuante: " + numero);
+        short numero = 2131;
+
+        System.out.println("Número Pequeno: " + numero);
     }
 }

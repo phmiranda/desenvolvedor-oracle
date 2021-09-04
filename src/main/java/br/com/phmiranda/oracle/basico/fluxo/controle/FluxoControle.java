@@ -6,7 +6,7 @@
  * Date: 21/07/2021
  */
 
-package br.com.phmiranda.oracle.basico.controle;
+package br.com.phmiranda.oracle.basico.fluxo.controle;
 
 // Percorre a lista iterando o seu resultado.
 public class FluxoControle {

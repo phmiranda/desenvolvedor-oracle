@@ -6,7 +6,7 @@
  * Date: 02/08/2021
  */
 
-package br.com.phmiranda.oracle.basico.sintaxe.primitivo;
+package br.com.phmiranda.oracle.basico.primitivo;
 
 public class Char {
     public static void main(String[] args) {
