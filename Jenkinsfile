@@ -10,7 +10,7 @@ pipeline {
         JENKINS_JOB_NUMBER='${env.BUILD_NUMBER}'
         JENKINS_JOB_URL='${env.BUILD_URL}'
         SLACK_CHANNEL='#notification'
-        SLACK_MESSAGE_INIT="O JOB '${JENKINS_JOB_NAME} COM NÚMERO [${JENKINS_JOB_NUMBER}]' FOI INICIALIZADO EM (${JENKINS_JOB_URL})"
+        SLACK_MESSAGE_DEFAULT="O JOB '${JENKINS_JOB_NAME} COM NÚMERO [${JENKINS_JOB_NUMBER}]' FOI INICIALIZADO EM (${JENKINS_JOB_URL})"
         SLACK_MESSAGE_SUCCESS=""
         SLACK_MESSAGE_FAILURE=""
     }
@@ -18,17 +18,17 @@ pipeline {
     stages {
         stage('INICIALIZAÇÃO') {
             steps {
-                slackSend (channel: '#notification', color: '#FFFF00', message: '$SLACK_MESSAGE_INIT')
+                slackSend (channel: '${SLACK_CHANNEL}', color: '#FFFF00', message: '${SLACK_MESSAGE_DEFAULT}')
             }
         }
 
         stage('CLONANDO REPOSITÓRIO') {
             steps {
                 checkout([
-                    $class: '$GIT_CLASS',
+                    $class: '${GIT_CLASS}',
                     branches: [
                         [
-                            name: '$GIT_BRANCH_NAME'
+                            name: '${GIT_BRANCH_NAME}'
                         ]
                     ],
                     doGenerateSubmoduleConfigurations: false,
@@ -36,8 +36,8 @@ pipeline {
                     submoduleCfg: [],
                     userRemoteConfigs: [
                         [
-                            credentialsId: '$GIT_CREDENTIAL_ID',
-                            url: '$GIT_CREDENTIAL_URL'
+                            credentialsId: '${GIT_CREDENTIAL_ID}',
+                            url: '${GIT_CREDENTIAL_URL}'
                         ]
                     ]
                 ])
