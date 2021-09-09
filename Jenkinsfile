@@ -11,24 +11,24 @@ pipeline {
         JENKINS_JOB_URL='${env.BUILD_URL}'
         SLACK_CHANNEL='#notification'
         SLACK_MESSAGE_DEFAULT="O JOB '${JENKINS_JOB_NAME} COM NÚMERO [${JENKINS_JOB_NUMBER}]' FOI INICIALIZADO EM (${JENKINS_JOB_URL})"
-        SLACK_MESSAGE_SUCCESS=""
-        SLACK_MESSAGE_FAILURE=""
+        SLACK_MESSAGE_SUCCESS="O JOB '${JENKINS_JOB_NAME} COM NÚMERO [${JENKINS_JOB_NUMBER}]' FOI GERADO O ARTEFATO COM SUCESSO EM (${JENKINS_JOB_URL})"
+        SLACK_MESSAGE_FAILURE="O JOB '${JENKINS_JOB_NAME} COM NÚMERO [${JENKINS_JOB_NUMBER}]' NÃO FOI GERADO O ARTEFATO COM SUCESSO EM (${JENKINS_JOB_URL})"
     }
 
     stages {
         stage('INICIALIZACAO') {
             steps {
-                slackSend (channel: '${SLACK_CHANNEL}', color: '#FFFF00', message: '${SLACK_MESSAGE_DEFAULT}')
+                slackSend (channel: '#notification', color: '#FFFF00', message: "O JOB '${JENKINS_JOB_NAME} COM NÚMERO [${JENKINS_JOB_NUMBER}]' FOI INICIALIZADO EM (${JENKINS_JOB_URL})")
             }
         }
 
         stage('CLONANDO REPOSITORIO') {
             steps {
                 checkout([
-                    $class: '${GIT_CLASS}',
+                    $class: 'GitSCM',
                     branches: [
                         [
-                            name: '${GIT_BRANCH_NAME}'
+                            name: '*/master'
                         ]
                     ],
                     doGenerateSubmoduleConfigurations: false,
@@ -36,8 +36,8 @@ pipeline {
                     submoduleCfg: [],
                     userRemoteConfigs: [
                         [
-                            credentialsId: '${GIT_CREDENTIAL_ID}',
-                            url: '${GIT_CREDENTIAL_URL}'
+                            credentialsId: 'AUTENTICACAO_GITHUB',
+                            url: 'https://phmiranda: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@github.com/phmiranda/desenvolvedor-oracle-se.git'
                         ]
                     ]
                 ])
@@ -48,7 +48,7 @@ pipeline {
     post {
         success {
             steps {
-                slackSend (channel: '${SLACK_CHANNEL}', color: 'green', message: '${SLACK_MESSAGE_SUCCESS}')
+                slackSend (channel: '#notification', color: 'green', message: "O JOB '${JENKINS_JOB_NAME} COM NÚMERO [${JENKINS_JOB_NUMBER}]' FOI GERADO O ARTEFATO COM SUCESSO EM (${JENKINS_JOB_URL})")
             }
         }
     }
