@@ -47,7 +47,7 @@ pipeline {
 
     post {
         success {
-            slackSend (channel: '#notification', color: 'green', message: "O JOB '${env.JOB_NAME} COM NÚMERO [${env.BUILD_NUMBER}]' FOI GERADO O ARTEFATO COM SUCESSO EM (${env.BUILD_URL})")
+            slackSend (channel: '#notification', color: 'green', teamDomain: 'ph-consultoria-grupo.slack.com', tokenCredentialId: 'U3JWdhqa9OyoO849tYmmCmUg', message: "O JOB '${env.JOB_NAME} COM NÚMERO [${env.BUILD_NUMBER}]' FOI GERADO O ARTEFATO COM SUCESSO EM (${env.BUILD_URL})")
         }
     }
 }
