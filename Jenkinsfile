@@ -52,11 +52,15 @@ pipeline {
 
     post {
         always {
-            slackSend channel: '#notification',
-            teamDomain: 'ph-consultoria-grupo.slack.com',
-            color: 'green',
-            tokenCredentialId: 'NOTIFICACAO_SLACK',
-            message: "O JOB '${env.JOB_NAME} COM NÚMERO [${env.BUILD_NUMBER}]' FOI GERADO O ARTEFATO COM SUCESSO EM (${env.BUILD_URL})"
+            withCredentials([string(credentialsId: 'NOTIFICACAO_SLACK', variable: 'slackCredentials')]) {
+                slackSend (
+                    channel: '#notification',
+                    teamDomain: 'ph-consultoria-grupo',
+                    message: "O JOB '${env.JOB_NAME} COM NÚMERO [${env.BUILD_NUMBER}]' FOI GERADO O ARTEFATO COM SUCESSO EM (${env.BUILD_URL})"
+                    token: slackCredentials,
+                    color: 'green',
+                )
+            }
         }
     }
 }
