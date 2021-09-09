@@ -22,9 +22,9 @@ pipeline {
         stage('INICIALIZACAO') {
             steps {
                 script {
-                    echo "JOB: ${JENKINS_JOB_NAME}"
-                    echo "NÚMERO: ${JENKINS_JOB_NUMBER}"
-                    echo "ENDEREÇO: ${JENKINS_JOB_URL}"
+                    echo "JOB: ${env.JOB_NAME}"
+                    echo "NÚMERO: ${env.BUILD_NUMBER}"
+                    echo "ENDEREÇO: ${env.BUILD_URL}"
                 }
             }
         }
