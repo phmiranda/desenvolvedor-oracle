@@ -47,9 +47,7 @@ pipeline {
 
     post {
         success {
-            steps {
-                slackSend (channel: '#notification', color: 'green', message: "O JOB '${JENKINS_JOB_NAME} COM NÚMERO [${JENKINS_JOB_NUMBER}]' FOI GERADO O ARTEFATO COM SUCESSO EM (${JENKINS_JOB_URL})")
-            }
+            slackSend (channel: '#notification', color: 'green', message: "O JOB '${JENKINS_JOB_NAME} COM NÚMERO [${JENKINS_JOB_NUMBER}]' FOI GERADO O ARTEFATO COM SUCESSO EM (${JENKINS_JOB_URL})")
         }
     }
 }
