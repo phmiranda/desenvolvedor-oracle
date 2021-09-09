@@ -23,23 +23,25 @@ pipeline {
         }
 
         stage('CLONANDO REPOSITÓRIO') {
-            checkout([
-                $class: '$GIT_CLASS',
-                branches: [
-                    [
-                        name: '$GIT_BRANCH_NAME'
+            steps {
+                checkout([
+                    $class: '$GIT_CLASS',
+                    branches: [
+                        [
+                            name: '$GIT_BRANCH_NAME'
+                        ]
+                    ],
+                    doGenerateSubmoduleConfigurations: false,
+                    extensions: [],
+                    submoduleCfg: [],
+                    userRemoteConfigs: [
+                        [
+                            credentialsId: '$GIT_CREDENTIAL_ID',
+                            url: '$GIT_CREDENTIAL_URL'
+                        ]
                     ]
-                ],
-                doGenerateSubmoduleConfigurations: false,
-                extensions: [],
-                submoduleCfg: [],
-                userRemoteConfigs: [
-                    [
-                        credentialsId: '$GIT_CREDENTIAL_ID',
-                        url: '$GIT_CREDENTIAL_URL'
-                    ]
-                ]
-            ])
+                ])
+            }
         }
     }
 
