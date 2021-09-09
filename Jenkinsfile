@@ -10,9 +10,9 @@ pipeline {
         JENKINS_JOB_NUMBER="${env.BUILD_NUMBER}"
         JENKINS_JOB_URL="${env.BUILD_URL}"
         SLACK_CHANNEL="#notification"
-        SLACK_COLOR_DEFAULT='#'
-        SLACK_COLOR_SUCCESS='#'
-        SLACK_COLOR_FAILURE='#'
+        SLACK_COLOR_DEFAULT='yellow'
+        SLACK_COLOR_SUCCESS='green'
+        SLACK_COLOR_FAILURE='red'
         SLACK_MESSAGE_DEFAULT="O JOB '${JENKINS_JOB_NAME} COM NÚMERO [${JENKINS_JOB_NUMBER}]' FOI INICIALIZADO EM (${JENKINS_JOB_URL})"
         SLACK_MESSAGE_SUCCESS="O JOB '${JENKINS_JOB_NAME} COM NÚMERO [${JENKINS_JOB_NUMBER}]' FOI GERADO O ARTEFATO COM SUCESSO EM (${JENKINS_JOB_URL})"
         SLACK_MESSAGE_FAILURE="O JOB '${JENKINS_JOB_NAME} COM NÚMERO [${JENKINS_JOB_NUMBER}]' NÃO FOI GERADO O ARTEFATO COM SUCESSO EM (${JENKINS_JOB_URL})"
@@ -22,7 +22,7 @@ pipeline {
         stage('INICIALIZACAO') {
             steps {
                 script {
-                    slackSend (baseUrl: '/', channel: '$SLACK_CHANNEL', botUser: 'Jenkins', color: '$SLACK_COLOR_DEFAULT', message: '$SLACK_MESSAGE_DEFAULT')
+                    slackSend (baseUrl: '/', channel: '${SLACK_CHANNEL}', botUser: 'Jenkins', color: '${SLACK_COLOR_DEFAULT}', message: '${SLACK_MESSAGE_DEFAULT}')
                 }
             }
         }
