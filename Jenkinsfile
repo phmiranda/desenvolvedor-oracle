@@ -22,7 +22,7 @@ pipeline {
         stage('INICIALIZACAO') {
             steps {
                 script {
-                    echo "${GIT_CLASS}"
+                    slackSend (baseUrl: '/', channel: '$SLACK_CHANNEL', botUser: 'Jenkins', color: '$SLACK_COLOR_DEFAULT', message: '$SLACK_MESSAGE_DEFAULT')
                 }
             }
         }
