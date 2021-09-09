@@ -6,9 +6,9 @@ pipeline {
         GIT_BRANCH_NAME="*/master"
         GIT_CREDENTIAL_ID="AUTENTICACAO_GITHUB"
         GIT_CREDENTIAL_URL="https://phmiranda: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@github.com/phmiranda/desenvolvedor-oracle-se.git"
-        JENKINS_JOB_NAME="${env.JOB_NAME}"
-        JENKINS_JOB_NUMBER="${env.BUILD_NUMBER}"
-        JENKINS_JOB_URL="${env.BUILD_URL}"
+        JENKINS_JOB_NAME='${env.JOB_NAME}'
+        JENKINS_JOB_NUMBER='${env.BUILD_NUMBER}'
+        JENKINS_JOB_URL='${env.BUILD_URL}'
         SLACK_CHANNEL="#notification"
         SLACK_COLOR_DEFAULT='yellow'
         SLACK_COLOR_SUCCESS='green'
@@ -22,7 +22,9 @@ pipeline {
         stage('INICIALIZACAO') {
             steps {
                 script {
-                    slackSend baseUrl: '/', channel: '${SLACK_CHANNEL}', botUser: 'Jenkins', color: '${SLACK_COLOR_DEFAULT}', message: '${SLACK_MESSAGE_DEFAULT}'
+                    echo "JOB: ${JENKINS_JOB_NAME}"
+                    echo "NÚMERO: ${JENKINS_JOB_NUMBER}"
+                    echo "ENDEREÇO: ${JENKINS_JOB_URL}"
                 }
             }
         }
@@ -46,20 +48,6 @@ pipeline {
                         ]
                     ]
                 ])
-            }
-        }
-    }
-
-    post {
-        always {
-            withCredentials([string(credentialsId: 'NOTIFICACAO_SLACK', variable: 'slackCredentials')]) {
-                slackSend (
-                    channel: '#notification',
-                    teamDomain: 'ph-consultoria-grupo',
-                    message: "O JOB '${env.JOB_NAME} COM NÚMERO [${env.BUILD_NUMBER}]' FOI GERADO O ARTEFATO COM SUCESSO EM (${env.BUILD_URL})"
-                    token: slackCredentials,
-                    color: 'green',
-                )
             }
         }
     }
