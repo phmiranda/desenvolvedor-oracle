@@ -16,13 +16,13 @@ pipeline {
     }
 
     stages {
-        stage('INICIALIZAÇÃO') {
+        stage('INICIALIZACAO') {
             steps {
                 slackSend (channel: '${SLACK_CHANNEL}', color: '#FFFF00', message: '${SLACK_MESSAGE_DEFAULT}')
             }
         }
 
-        stage('CLONANDO REPOSITÓRIO') {
+        stage('CLONANDO REPOSITORIO') {
             steps {
                 checkout([
                     $class: '${GIT_CLASS}',
@@ -48,7 +48,7 @@ pipeline {
     post {
         success {
             steps {
-                slackSend (channel: '$SLACK_CHANNEL', color: 'green', message: '$SLACK_MESSAGE_SUCCESS')
+                slackSend (channel: '${SLACK_CHANNEL}', color: 'green', message: '${SLACK_MESSAGE_SUCCESS}')
             }
         }
     }
