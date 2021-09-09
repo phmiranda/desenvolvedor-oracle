@@ -1,8 +1,8 @@
 /*
  * Author: Pedro
  * Project: desenvolvedor-oracle-se
- * User Story: HUXXX - TITLE OF USER HISTORY
- * Description: N/A
+ * User Story: HU001
+ * Description: DESENVOLVEDOR ORACLE SE [PARTE 01]
  * Date: 21/07/2021
  */
 
