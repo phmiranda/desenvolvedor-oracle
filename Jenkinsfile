@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    environments {
+    environment {
         GIT_CLASS='GitSCM'
         GIT_BRANCH_NAME='*/master'
         GIT_CREDENTIAL_ID='GITHUB'
