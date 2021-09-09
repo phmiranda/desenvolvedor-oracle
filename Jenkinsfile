@@ -4,11 +4,11 @@ pipeline {
     environment {
         GIT_CLASS='GitSCM'
         GIT_BRANCH_NAME='*/master'
-        GIT_CREDENTIAL_ID='GITHUB'
+        GIT_CREDENTIAL_ID='AUTENTICACAO_GITHUB'
         GIT_CREDENTIAL_URL='https://phmiranda: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@github.com/phmiranda/desenvolvedor-oracle-se.git'
-        JENKINS_JOB_NAME=env.JOB_NAME
-        JENKINS_JOB_NUMBER=env.BUILD_NUMBER
-        JENKINS_JOB_URL=env.BUILD_URL
+        JENKINS_JOB_NAME='${env.JOB_NAME}'
+        JENKINS_JOB_NUMBER='${env.BUILD_NUMBER}'
+        JENKINS_JOB_URL='${env.BUILD_URL}'
         SLACK_CHANNEL='#notification'
         SLACK_MESSAGE_INIT="O JOB '${JENKINS_JOB_NAME} COM NÚMERO [${JENKINS_JOB_NUMBER}]' FOI INICIALIZADO EM (${JENKINS_JOB_URL})"
         SLACK_MESSAGE_SUCCESS=""
