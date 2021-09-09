@@ -8,7 +8,7 @@
 
 package br.com.phmiranda.oracle.basico.sintaxe;
 
-// declaração de variáveis primitivas
+// declaração de variáveis primitivas, forma básica de declaração com tipo primitivo no Java
 public class Variavel {
     public static void main(String[] args) {
         int idade;

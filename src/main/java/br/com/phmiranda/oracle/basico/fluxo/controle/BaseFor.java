@@ -6,11 +6,10 @@
  * Date: 21/07/2021
  */
 
-package br.com.phmiranda.oracle.basico.sintaxe.primitivo;
+package br.com.phmiranda.oracle.basico.fluxo.controle;
 
-public class Byte {
+public class BaseFor {
     public static void main(String[] args) {
-        byte numero = 127;
-        System.out.println("Número em Byte: "+ numero);
+
     }
 }

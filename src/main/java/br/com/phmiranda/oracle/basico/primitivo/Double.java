@@ -6,7 +6,7 @@
  * Date: 21/07/2021
  */
 
-package br.com.phmiranda.oracle.basico.sintaxe.primitivo;
+package br.com.phmiranda.oracle.basico.primitivo;
 
 public class Double {
     public static void main(String[] args) {

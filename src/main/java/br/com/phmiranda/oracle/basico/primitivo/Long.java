@@ -6,12 +6,13 @@
  * Date: 21/07/2021
  */
 
-package br.com.phmiranda.oracle.basico.sintaxe.primitivo;
+package br.com.phmiranda.oracle.basico.primitivo;
 
-public class Short {
+public class Long {
     public static void main(String[] args) {
-        short numero = 2131;
+        long numero;
+        numero = 32432423523L;
 
-        System.out.println("Número Pequeno: " + numero);
+        System.out.println("Número Grande: " + numero);
     }
 }
