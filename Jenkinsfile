@@ -1,10 +1,6 @@
 pipeline {
     agent any
-    tools {
-        maven 'Maven 3.6.2'
-        jdk 'jdk8'
-    }
-
+    
     environments {
         GIT_CLASS='GitSCM'
         GIT_BRANCH_NAME='*/master'
