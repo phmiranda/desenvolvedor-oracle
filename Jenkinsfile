@@ -22,12 +22,7 @@ pipeline {
         stage('INICIALIZACAO') {
             steps {
                 script {
-                    slackSend
-                    baseUrl: '/',
-                    channel: '${SLACK_CHANNEL}',
-                    botUser: 'Jenkins',
-                    color: '${SLACK_COLOR_DEFAULT}',
-                    message: '${SLACK_MESSAGE_DEFAULT}'
+                    slackSend baseUrl: '/', channel: '${SLACK_CHANNEL}', botUser: 'Jenkins', color: '${SLACK_COLOR_DEFAULT}', message: '${SLACK_MESSAGE_DEFAULT}'
                 }
             }
         }
