@@ -1,9 +1,9 @@
 /*
- * Author: phmiranda
+ * Author: Pedro
  * Project: desenvolvedor-oracle-se
- * User Story: HU001
- * Description: CURSO DE DESENVOLVIMENTO JAVA SE - PARTE 01 (AULA 01)
- * Date: 30/08/2021
+ * Task Number: SRC-65
+ * Description: AULA 03 - COMEÇANDO COM ECLIPSE
+ * Date: 21/07/2021
  */
 
 package br.com.phmiranda.oracle.basico;
