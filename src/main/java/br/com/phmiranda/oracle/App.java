@@ -1,9 +1,9 @@
 /*
- * Author: phmiranda
+ * Author: Pedro
  * Project: desenvolvedor-oracle-se
- * User Story: HUXXX
- * Description: N/A
- * Date: xx/xx/xxxx
+ * Task Number: SRC-43
+ * Description: AULA 01 - O QUE É JAVA ?
+ * Date: 21/07/2021
  */
 
 package br.com.phmiranda.oracle;

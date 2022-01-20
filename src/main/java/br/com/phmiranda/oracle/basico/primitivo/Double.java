@@ -1,8 +1,8 @@
 /*
  * Author: Pedro
  * Project: desenvolvedor-oracle-se
- * User Story: HU001
- * Description: DESENVOLVEDOR ORACLE SE [PARTE 01]
+ * Task Number: SRC-44
+ * Description: AULA 02 - INSTALAÇÃO E O PRIMEIRO PROGRAMA
  * Date: 21/07/2021
  */
 
