@@ -1,8 +1,8 @@
 /*
  * Author: Pedro
  * Project: desenvolvedor-oracle-se
- * User Story: HU001
- * Description: DESENVOLVEDOR ORACLE SE [PARTE 01]
+ * Task Number: SRC-66
+ * Description: AULA 04 - TIPOS E VARIÁVEIS
  * Date: 21/07/2021
  */
 
