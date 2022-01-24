@@ -6,9 +6,9 @@
  * Date: 21/07/2021
  */
 
-package br.com.phmiranda.oracle.basico.fluxo.condicional;
+package br.com.phmiranda.oracle.basico.fluxo;
 
-public class BaseCondicional {
+public class Base {
     public static void main(String[] args) {
         int condicao = 1;
         if (condicao >= 0) {
