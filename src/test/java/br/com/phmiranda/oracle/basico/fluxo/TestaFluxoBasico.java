@@ -8,11 +8,16 @@
 
 package br.com.phmiranda.oracle.basico.fluxo;
 
-public class Base {
-    public static void main(String[] args) {
-        int condicao = 30;
+import java.util.Scanner;
 
-        if (condicao >= 18) {
+public class TestaFluxoBasico {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite a sua idade: ");
+
+        int idade = scanner.nextInt();
+
+        if (idade >= 18) {
             System.out.println("RESULTADO: VOCÊ TEM MAIS DE 18 ANOS.");
         } else {
             System.out.println("RESULTADO: VOCÊ NÃO TEM MAIS DE 18 ANOS.");
