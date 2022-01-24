@@ -8,15 +8,18 @@
 
 package br.com.phmiranda.oracle.basico.fluxo;
 
-public class BaseWhile {
-    public static void main(String[] args) {
-        int contador = 0;
+import java.util.Scanner;
 
-        while (contador < 10) {
+public class TestaFluxoContadorFor {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int contator = scanner.nextInt();
+        int limitador = scanner.nextInt();
+        int total;
+
+        for (int contador = 0; contador <= 10 ; contador++) {
             System.out.println(contador);
-            // contador = contador + 1;
-            // contador += 1;
-            contador++;
         }
     }
 }
