@@ -6,7 +6,7 @@
  * Date: 21/07/2021
  */
 
-package br.com.phmiranda.oracle.basico.fluxo.controle;
+package br.com.phmiranda.oracle.basico.fluxo;
 
 public class BaseFor {
     public static void main(String[] args) {

@@ -15,8 +15,5 @@ public class ValorVariavel {
         int segundo = 5;
         segundo = primeiro;
         primeiro = 10;
-
-        System.out.println("VALOR IMPRESSO: " + primeiro);
-        System.out.println("VALOR IMPRESSO: " + segundo);
     }
 }

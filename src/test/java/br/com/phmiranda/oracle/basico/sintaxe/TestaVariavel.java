@@ -10,11 +10,14 @@ package br.com.phmiranda.oracle.basico.sintaxe;
 
 public class TestaVariavel {
     public static void main(String[] args) {
-        System.out.println("Olá, meu primeiro teste.");
+        // declaração e inicialização de uma variável
+        int idade = 37;
+        int idadeSomada = 30 + 10;
+        int idadeMultiplicada = (7*5) + 2 ;
 
-        int idade;
-        idade = 37;
-
-
+        // impressão de uma variável no console
+        System.out.println("Idade: " + idade);
+        System.out.println("Idade Somada: " + idadeSomada);
+        System.out.println("Idade Multiplicada: " + idadeMultiplicada);
     }
 }

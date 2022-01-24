@@ -9,7 +9,7 @@
 package br.com.phmiranda.oracle.basico.sintaxe;
 
 // Nesta classe é feito o teste de conversão (casting), isso força a mudança de tipos.
-public class ConversaoTipo {
+public class Conversao {
     public static void main(String[] args) {
         double salario = 1270.50;
         int salarioConvertido = (int) salario;
