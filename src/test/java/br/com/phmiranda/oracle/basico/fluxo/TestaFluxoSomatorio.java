@@ -8,11 +8,16 @@
 
 package br.com.phmiranda.oracle.basico.fluxo;
 
-public class TestaFluxoControle {
+public class TestaFluxoSomatorio {
     public static void main(String[] args) {
-        // Testa os números múltiplos de três de zero até 100.
-        for (int numero = 3; numero < 100; numero++){
-            System.out.println(numero);
+        int contador = 0;
+        int limitador = 10;
+        int total = 0;
+
+        while (contador <= limitador) {
+            total = total +contador;
+            System.out.println(total);
+            contador++;
         }
     }
 }
