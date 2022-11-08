@@ -1,9 +1,8 @@
-/*
- * Author: Pedro
- * Project: desenvolvedor-oracle-se
- * Task Number: SRC-44
- * Description: AULA 02 - INSTALAÇÃO E O PRIMEIRO PROGRAMA
- * Date: 21/07/2021
+/**
+ * Project: oracle-se
+ * Task/User History: 64
+ * Description: Descrição resumida da história de usuário/tarefa e código de identificação (GRUPOCDC-64)
+ * User: phmiranda
  */
 
 package br.com.phmiranda.oracle.basico.primitivo;

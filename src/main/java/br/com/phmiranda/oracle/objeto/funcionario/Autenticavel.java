@@ -1,9 +1,8 @@
-/*
- * Author: Pedro
- * Project: desenvolvedor-oracle-se
- * User Story: HUXXX - TITLE OF USER HISTORY
- * Description: N/A
- * Date: 21/07/2021
+/**
+ * Project: oracle-se
+ * Task/User History: 64
+ * Description: Descrição resumida da história de usuário/tarefa e código de identificação (GRUPOCDC-64)
+ * User: phmiranda
  */
 
 package br.com.phmiranda.oracle.objeto.funcionario;

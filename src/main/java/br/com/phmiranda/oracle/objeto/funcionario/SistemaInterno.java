@@ -1,9 +1,8 @@
-/*
- * Author: Pedro
- * Project: desenvolvedor-oracle
- * User Story: N/A
- * Description: N/A
- * Date: 10/06/2020
+/**
+ * Project: oracle-se
+ * Task/User History: 64
+ * Description: Descrição resumida da história de usuário/tarefa e código de identificação (GRUPOCDC-64)
+ * User: phmiranda
  */
 
 package br.com.phmiranda.oracle.objeto.funcionario;
@@ -15,7 +14,7 @@ public class SistemaInterno {
         boolean autenticou = autenticavel.autenticar(this.senha);
         if (autenticou) {
             System.out.println("Pode entrar no sistema.");
-        }else {
+        } else {
             System.out.println("Não pode entrar no sistema.");
         }
     }
