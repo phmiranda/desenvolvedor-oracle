@@ -1,9 +1,8 @@
-/*
- * Author: Pedro
- * Project: desenvolvedor-oracle
- * User Story: N/A
- * Description: N/A
- * Date: 12/06/2020
+/**
+ * Project: oracle-se
+ * Task/User History: 64
+ * Description: Descrição resumida da história de usuário/tarefa e código de identificação (GRUPOCDC-64)
+ * User: phmiranda
  */
 
 
