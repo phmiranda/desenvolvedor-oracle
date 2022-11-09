@@ -6,7 +6,7 @@
  */
 
 
-package br.com.phmiranda.oracle.objeto.funcionario;
+package br.com.phmiranda.oracle.objetos.funcionario;
 
 public class Bonificacao {
     private double soma;

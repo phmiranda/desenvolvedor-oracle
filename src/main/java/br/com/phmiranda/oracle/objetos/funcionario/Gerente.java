@@ -5,20 +5,20 @@
  * User: phmiranda
  */
 
-package br.com.phmiranda.oracle.objeto.funcionario;
+package br.com.phmiranda.oracle.objetos.funcionario;
 
-public class Administrador extends Funcionario implements Autenticavel{
+public class Gerente extends Funcionario  implements Autenticavel {
     private final AutenticacaoUtil autenticador;
 
-    public Administrador (){
+    public Gerente() {
         this.autenticador = new AutenticacaoUtil();
     }
 
     // reescrita do método bonificação na classe mãe/genérica Funcionario.bonificacao().
     @Override
     public double getBonificacao() {
-        System.out.println("Bonificação: ADMINISTRADOR DE SISTEMAS");
-        return 50;
+        System.out.println("Bonificação: GERENTE DE CONTA");
+        return super.getSalario() * 0.1;
     }
 
     @Override

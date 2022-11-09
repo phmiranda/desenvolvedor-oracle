@@ -5,7 +5,7 @@
  * User: phmiranda
  */
 
-package br.com.phmiranda.oracle.objeto.funcionario;
+package br.com.phmiranda.oracle.objetos.funcionario;
 
 public abstract interface Autenticavel {
     public abstract void setSenha(int senha);

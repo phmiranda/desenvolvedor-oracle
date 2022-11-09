@@ -5,8 +5,11 @@
  * User: phmiranda
  */
 
-package br.com.phmiranda.oracle.objeto.banco.base;
+package br.com.phmiranda.oracle.objetos.banco.conta;
 
-public class Conta {
-
+public class SeguroVida implements Tributavel {
+    @Override
+    public double getValorImposto() {
+        return 42;
+    }
 }

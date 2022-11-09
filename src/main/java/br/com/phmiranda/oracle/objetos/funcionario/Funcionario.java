@@ -5,7 +5,7 @@
  * User: phmiranda
  */
 
-package br.com.phmiranda.oracle.objeto.funcionario;
+package br.com.phmiranda.oracle.objetos.funcionario;
 
 // classes abstração são genéricas e não podem ser instânciadas.
 public abstract class Funcionario {

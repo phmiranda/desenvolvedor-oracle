@@ -5,7 +5,7 @@
  * User: phmiranda
  */
 
-package br.com.phmiranda.oracle.objeto.banco.conta;
+package br.com.phmiranda.oracle.objetos.banco.conta;
 
 public abstract class Conta {
     protected double saldo;
