@@ -1,7 +1,7 @@
 /**
- * Project: oracle-se
+ * Project: GRUPOCDC
  * Task/User History: 64
- * Description: Descrição resumida da história de usuário/tarefa e código de identificação (GRUPOCDC-64)
+ * Description: Primeiro classe construída em Java
  * User: phmiranda
  */
 
@@ -12,6 +12,6 @@ public class Programa {
     // 2 - Aplicativos Java precisam invocar um método MAIN (principal).
     public static void main(String[] args) {
         // 3 - Método padrão para a impressão de uma STRING no console.
-        System.out.println("OLÁ MUNDO !!!");
+        System.out.println("Olá Pedro, este é minha primeira classe Java.");
     }
 }
