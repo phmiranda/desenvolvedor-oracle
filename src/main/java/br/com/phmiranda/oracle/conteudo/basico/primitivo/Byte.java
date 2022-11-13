@@ -5,10 +5,11 @@
  * User: phmiranda
  */
 
-package br.com.phmiranda.oracle;
+package br.com.phmiranda.oracle.conteudo.basico.primitivo;
 
-public class App {
+public class Byte {
     public static void main(String[] args) {
-        System.out.println("Hello World!!!");
+        byte numero = 127;
+        System.out.println("Número em Byte: " + numero);
     }
 }

@@ -5,10 +5,13 @@
  * User: phmiranda
  */
 
-package br.com.phmiranda.oracle;
+package br.com.phmiranda.oracle.conteudo.basico.primitivo;
 
-public class App {
+public class Long {
     public static void main(String[] args) {
-        System.out.println("Hello World!!!");
+        long numero;
+        numero = 32432423523L;
+
+        System.out.println("Número Grande: " + numero);
     }
 }

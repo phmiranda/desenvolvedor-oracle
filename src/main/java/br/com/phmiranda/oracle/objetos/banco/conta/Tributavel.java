@@ -5,10 +5,10 @@
  * User: phmiranda
  */
 
-package br.com.phmiranda.oracle;
+package br.com.phmiranda.oracle.objetos.banco.conta;
 
-public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello World!!!");
-    }
+public interface Tributavel {
+    // método de cálculo para imposto sobre valores.
+    public abstract double getValorImposto();
+
 }

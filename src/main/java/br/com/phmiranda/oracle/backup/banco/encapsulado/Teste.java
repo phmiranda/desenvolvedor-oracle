@@ -5,10 +5,7 @@
  * User: phmiranda
  */
 
-package br.com.phmiranda.oracle;
+package br.com.phmiranda.oracle.backup.banco.encapsulado;
 
-public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello World!!!");
-    }
+public class Teste {
 }

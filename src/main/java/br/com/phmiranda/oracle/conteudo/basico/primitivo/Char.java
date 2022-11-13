@@ -4,11 +4,11 @@
  * Description: Descrição resumida da história de usuário/tarefa e código de identificação (GRUPOCDC-64)
  * User: phmiranda
  */
+package br.com.phmiranda.oracle.conteudo.basico.primitivo;
 
-package br.com.phmiranda.oracle;
-
-public class App {
+public class Char {
     public static void main(String[] args) {
-        System.out.println("Hello World!!!");
+        char caractere = 'A';
+        System.out.println("IMPRESSÃO DO CARACTERE: " + caractere);
     }
 }

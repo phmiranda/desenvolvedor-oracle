@@ -5,10 +5,9 @@
  * User: phmiranda
  */
 
-package br.com.phmiranda.oracle;
+package br.com.phmiranda.oracle.backup.funcionario;
 
-public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello World!!!");
-    }
+public abstract interface Autenticavel {
+    public abstract void setSenha(int senha);
+    public abstract boolean autenticar(int senha);
 }

@@ -5,10 +5,10 @@
  * User: phmiranda
  */
 
-package br.com.phmiranda.oracle;
+package br.com.phmiranda.oracle.conteudo.biblioteca.excecao;
 
-public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello World!!!");
+public class MinhaExcecao extends RuntimeException {
+    public MinhaExcecao(String msg) {
+        super(msg);
     }
 }

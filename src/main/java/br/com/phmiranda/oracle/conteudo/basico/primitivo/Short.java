@@ -5,10 +5,12 @@
  * User: phmiranda
  */
 
-package br.com.phmiranda.oracle;
+package br.com.phmiranda.oracle.conteudo.basico.primitivo;
 
-public class App {
+public class Short {
     public static void main(String[] args) {
-        System.out.println("Hello World!!!");
+        short numero = 2131;
+
+        System.out.println("Número Pequeno: " + numero);
     }
 }
