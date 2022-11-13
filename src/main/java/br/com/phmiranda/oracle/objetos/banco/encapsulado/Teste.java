@@ -5,8 +5,7 @@
  * User: phmiranda
  */
 
-package br.com.phmiranda.oracle.objeto.banco.base;
+package br.com.phmiranda.oracle.objetos.banco.encapsulado;
 
-public class Cliente {
-
+public class Teste {
 }

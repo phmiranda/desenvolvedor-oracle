@@ -6,11 +6,11 @@
  */
 
 
-package br.com.phmiranda.oracle.objeto.funcionario;
+package br.com.phmiranda.oracle.objetos.funcionario;
 
-public class DesignerGrafico extends Funcionario {
+public class EditorVideo extends Funcionario {
     public double getBonificacao() {
-        System.out.println("Bonificação: DESIGNER GRÁFICO");
-        return 200;
+        System.out.println("Bonificação: EDITOR DE VIDEO");
+        return 150;
     }
 }

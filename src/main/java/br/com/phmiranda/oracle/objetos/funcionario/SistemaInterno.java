@@ -5,7 +5,7 @@
  * User: phmiranda
  */
 
-package br.com.phmiranda.oracle.objeto.funcionario;
+package br.com.phmiranda.oracle.objetos.funcionario;
 
 public class SistemaInterno {
     private int senha = 2222;
