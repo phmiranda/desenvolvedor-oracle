@@ -12,7 +12,7 @@ pipeline {
         GIT_CLASS="GitSCM"
         GIT_BRANCH_NAME="*/master"
         GIT_CREDENTIAL_ID="GITHUB"
-        GIT_CREDENTIAL_URL="https://phmiranda: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@github.com/phmiranda/desenvolvedor-oracle-se.git"
+        GIT_CREDENTIAL_URL=""
 
         DOCKER_IMAGEM_NOME=""
         DOCKER_IMAGEM_VERSAO=""
@@ -64,7 +64,7 @@ pipeline {
                     userRemoteConfigs: [
                         [
                             credentialsId: 'GITHUB',
-                            url: 'https://phmiranda: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@github.com/phmiranda/desenvolvedor-oracle-se.git'
+                            url: ''
                         ]
                     ]
                 ])
