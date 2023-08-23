@@ -1,12 +1,13 @@
-# ide directory and file configuration.
+# Configuração de ambiente (IDE).
 .idea/
 .vscode/
+.settings/
 
-# build directory target.
+# Configuração de diretório de build.
 gen/
 target/
 out/
 
-# file log, ide configuration, etc.
+# Configuração de arquivos - IDE, LOG, etc.
 *.log
 *.iml
